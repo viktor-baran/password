@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.passwordInput {
+  margin: 4px 0;
+  padding: 8px;
+  border: 2px solid darkgray;
+  border-radius: 8px;
+}
+
+.strengthBar {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.point:last-of-type {
+  margin: 0;
+}
+
+.point {
+  background: lightgray;
+  border-radius: 2px;
+  height: 5px;
+  margin-right: 1px;
+  flex-grow: 1;
+}
+
+.message {
+  font-weight: bold;
+  flex-grow: 0.1;
+}
